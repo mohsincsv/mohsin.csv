@@ -972,3 +972,51 @@ figure.effect-bubba:hover p {
 
 }
 
+
+
+.home-overlay {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section.calltoaction {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+section.calltoaction h2 {
+    font-size: 35px;
+    margin-bottom:20px
+}
+
+
+section.calltoaction h2 ~ div{
+    display:none
+}
+
+@media(max-width:991px){
+    div#undefined-sticky-wrapper .container {
+        width: 98%;
+    }
+}
+
+
+section#services .row ~ .row> div:nth-child(2){
+    min-height:260px
+}
+section#services .row ~ .row> div:nth-child(2) > div{
+    min-height:260px
+}
+section#home {
+    background: none !important;
+    background-color: #0E1015 !important;
+}
+
+section#home .home-overlay {
+    background-size: 90% !important;
+    background-color: #0E1015 !important;
+}
